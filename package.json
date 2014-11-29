@@ -1,0 +1,30 @@
+{
+  "name": "hai",
+  "description": "This thing says things to another thing... periodically. Muahahahahahah!",
+  "version": "0.0.1",
+  "author": {
+    "name": "Aaron Caswell",
+    "email": "aaron@captureplay.com",
+    "url": "https://github.com/porkchop"
+  },
+  "dependencies": {
+    "request": "2.49.0"
+  },
+  "devDependencies": {
+    "should": "3.3.1",
+    "mocha": "1.18.2",
+    "express": "~3.4.8"
+  },
+  "keywords": [
+    "Muahahahahahah!"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/porkchop/hai"
+  },
+  "main": "index",
+  "scripts": {
+    "test": "make test"
+  },
+  "license": "MIT"
+}
