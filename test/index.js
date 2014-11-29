@@ -30,14 +30,15 @@ describe('Hai', function() {
   });
 
   it('should say things to to other things... periodically', function(done) {
+    var maxInterval = 5 * 1000;
+    this.timeout(maxInterval * 2);
+
     var hai = new Hai({
       app: app,
-      maxInterval: 5 * 1000,
+      maxInterval: maxInterval,
       otherHais: ['http://localhost:' + port + myHaiPath],
       myHaiPath: myHaiPath
     });
-
-    this.timeout = hai.maxInterval * 2;
 
     var hais = 0;
 
